@@ -39,6 +39,8 @@ export default function ChatBox() {
 
   return (
     <div className="max-w-xl mx-auto mt-10 p-4 bg-white border border-gray-300 rounded-xl shadow-lg">
+      <h2 className="text-2xl font-bold mb-4 text-gray-900">Ask the WRO-USA Chatbot</h2>
+
       <div className="h-80 overflow-y-auto bg-gray-50 p-4 rounded-md space-y-2">
         {messages.map((msg, i) => (
           <div
